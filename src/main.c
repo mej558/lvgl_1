@@ -16,7 +16,7 @@
 
 #define LOG_LEVEL CONFIG_LOG_DEFAULT_LEVEL
 #include <zephyr/logging/log.h>
-LOG_MODULE_REGISTER(app);
+LOG_MODULE_REGISTER(main, LOG_LEVEL_DBG);
 
 static uint32_t count;
 
